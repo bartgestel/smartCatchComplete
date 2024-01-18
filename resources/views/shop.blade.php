@@ -17,7 +17,7 @@
 <section class="additional-section">
     <div class="content-container">
         <div class="image-container1">
-            <img src="{{URL::asset('img/blanco-vierkant-kalkpapier-200.480.p1.png')}}" alt="Additional Image" id="mainImage">
+            <img src="{{URL::asset("img/IMG_3457.jpg")}}" alt="Additional Image" id="mainImage">
         </div>
 
         <div class="text">
