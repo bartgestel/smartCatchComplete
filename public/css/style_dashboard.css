@@ -1,0 +1,313 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color:aliceblue;
+  }
+
+  header {
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 100;
+    top: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo-and-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 16px;
+    margin-right: 50px;
+  }
+
+  .logo img {
+    width: 55px;
+    height: 45px;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 40px;
+  }
+
+  nav li {
+    margin-right: 40px;
+  }
+
+  nav a {
+    font-weight: lighter;
+    text-decoration: none;
+    color: black;
+  }
+
+  .logout a {
+    font-weight: lighter;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+  }
+
+
+  .dashboard-container {
+    display: flex;
+    height: 100vh;
+}
+
+
+.left-box {
+    flex: 1;
+    background-color: dodgerblue;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    max-width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.image-textcontainer{
+  display: flex;
+  align-items: center;
+}
+
+  .image-textcontainer img{
+    width: 55px;
+    height: 45px;
+    margin-right: 20px;
+}
+
+  .image-textcontainer p {
+  color: white;
+  font-size: 20px;
+}
+
+.overview-button{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-color: white;
+  height: 60px;
+  margin-top: 20px;
+}
+
+.overview-button img{
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+.overview-button p {
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.searchbar {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-color: white;
+  height: 45px;
+  margin-top: 20px;
+}
+
+.searchbar [contenteditable="true"]:focus {
+  outline: none;
+}
+
+.searchbar img{
+  width: 40px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.searchbar div {
+  display: flex;
+  align-items: center;
+}
+
+.searchbar p {
+  font-size: 15px;
+  margin-right: 0px;
+  color: gainsboro;
+}
+
+.center-boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.middle-boxes {
+  display: flex;
+}
+
+.center-box1 {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  height: 100px;
+  width: 700px;
+}
+
+.center-box1 h1{
+  margin: 0px;
+}
+
+.center-box2 {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  display: block;
+  height: 200px;
+  width: 320px;
+}
+
+
+.square {
+  width: 15px;
+  height: 15px;
+  background-color: dodgerblue;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+
+.center-box2 p,
+.center-box3 p,
+.center-box4 p,
+.right-box1 p,
+.right-box2 p{
+  font-size: 15px;
+  margin-top: 2px;
+  margin-bottom: 40px;
+}
+
+.center-box3 {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  display: block;
+  height: 200px;
+  width: 320px;
+}
+
+.center-box4 {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  display: block;
+  height: 200px;
+  width: 700px;
+}
+
+.box-title{
+    display: flex;
+}
+
+.right-boxes {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-box1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    max-width: 270px;
+}
+
+.header-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.ship-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ship-container img {
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.ship-container p{
+  font-size: 13px;
+}
+
+.right-box2 {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    display: flex;
+    max-width: 270px;
+    max-height: 180px;
+}
+
+footer {
+  background-color: white;
+  color: black;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+#ship-link {
+  text-decoration: none;
+  color: black;
+}
+
+#search-items{
+    list-style: none;
+}
+
+.ships{
+    margin-bottom: 10px;
+}
+
+.ships a{
+    text-decoration: none;
+    color: black;
+}
+
+.box-title p{
+    margin-bottom: 0;
+}
+
+.data-section{
+    margin-top: 20px;
+}
